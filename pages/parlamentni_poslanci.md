@@ -1,5 +1,5 @@
 ---
-layout:       default
+layout:       XX_default
 title:        Poslanci PČR
 description:  adresář poslanců
 permalink:    /parlamentni_poslanci/
@@ -7,10 +7,36 @@ id:           autocircles
 ---
 
 <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.3/clipboard.min.js"></script>
+<style>
+.flag { display: inline-block; width: 21px; padding: 19px 0 0 0; height: 0px; vertical-align: middle; background-image: url(http://www.psp.cz/css2/gi/vote-flags.png); overflow: hidden;  }
+.flag.ano { background-position: 0px -19px; }
+.flag.zdržel_se { background-position: 0px -38px; }
+.flag.ne { background-position: 0px -57px; }
+.flag.nepřihlášen { background-position: 0px -76px; }
+.flag.omluven { background-position: 0px -95px; }
+
+.rekonstrukce { display: inline-block; width: 20px; padding: 20px 0 0 0; height: 0px; vertical-align: middle; background-image: url(file:///home/ln/Downloads/rekonstrukce_statu_sign.png); overflow: hidden;  }
+.rekonstrukce.ano { background-position: 0px -20px; }
+.rekonstrukce.ne { background-position: 0px -40px; }
+
+.hlavicka {/*:left; position: relative; */
+  -ms-transform:rotate(270deg); /* IE 9 */
+  -moz-transform:rotate(270deg); /* Firefox */
+  -webkit-transform:rotate(270deg); /* Safari and Chrome */
+  -o-transform:rotate(270deg); /* Opera */
+ }
+</style>
 
 kliknutí na <img src="http://zenorocha.github.io/clipboard.js/assets/images/clippy.svg" alt='Kopie do schránky' width='21' style='height:21px' class='notcircle' data-clipboard-text="fiktivni_osoba@domena.cz"> zkopíruje e-mailovou adresu do Clipboardu
 
 ### Zpravodajové zákona o registru smluv
+
+<div class="hlavicka">
+	<a href="http://www.psp.cz/eknih/2013ps/stenprot/031schuz/s031198.htm#h141">postoupit Senátu</a> - <a href="http://www.psp.cz/sqw/hlasy.sqw?g=61427&l=cz">schváleno</a><br>
+	<a href="http://www.psp.cz/eknih/2013ps/stenprot/036schuz/s036010.htm#h18">vyčkat dopadové studie</a> - <a href="http://www.psp.cz/sqw/hlasy.sqw?g=61823&l=cz">zamítnuto</a><br>
+	<a href="http://www.psp.cz/eknih/2013ps/stenprot/036schuz/s036019.htm#h19">přijmout senátní verzi</a> - <a href="http://www.psp.cz/sqw/hlasy.sqw?g=61824&l=cz">zamítnuto</a><br>
+	<a href="http://www.psp.cz/eknih/2013ps/stenprot/036schuz/s036020.htm#h20">přijmout původní verzi</a> - <a href="http://www.psp.cz/sqw/hlasy.sqw?g=61825&l=cz">schváleno</a>
+</div>
 
 strana | poslanec
 --- | ---
